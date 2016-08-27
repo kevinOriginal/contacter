@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { Componet } from 'react';
 import Contact from './Contact';
 
-class App extends React.Component {
-  render(){
+class App extends Component {
+  render() {
     return (
       <Contact/>
     );

@@ -17,17 +17,17 @@ module.exports = {
     },
 
     module: {
-    loaders: [
-        {
-            test: /\.js$/,
-            loaders: ['react-hot', 'babel?' + JSON.stringify({
-                cacheDirectory: true,
-                presets: ['es2015', 'react']
-            })],
-            exclude: /node_modules/,
-        }
-    ]
-},
+      loaders: [
+          {
+              test: /\.js$/,
+              loaders: ['react-hot', 'babel?' + JSON.stringify({
+                  cacheDirectory: true,
+                  presets: ['es2015', 'react']
+              })],
+              exclude: /node_modules/,
+          }
+      ]
+  },
 
 
     plugins: [
